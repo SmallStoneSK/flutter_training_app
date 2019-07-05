@@ -13,9 +13,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: HomePage(),
-      routes: {
-        'basic_widgets': (context) => BasicWidgetsDemo()
-      },
+      routes: {'basic_widgets': (context) => BasicWidgetsDemo()},
     );
   }
 }
