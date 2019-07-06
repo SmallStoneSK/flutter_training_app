@@ -1,16 +1,15 @@
 # flutter_training_app
 
-A Flutter application for training.
+Flutter练习，欢迎Star，一起学习~
 
-## Getting Started
+## 预览
 
-This project is a starting point for a Flutter application.
+<div>
+  <img width="250" src="./lib/basic_widgets/screen_shots/pet_card.png"/>
+  <img width="250" src="./lib/basic_widgets/screen_shots/credit_card.png"/>
+  <img width="250" src="./lib/basic_widgets/screen_shots/friend_circle.png"/>
+</div>
 
-A few resources to get you started if this is your first Flutter project:
+## 文章
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+- [用Flutter构建漂亮的UI界面 - 基础组件篇](https://github.com/SmallStoneSK/Blog/issues/12)
