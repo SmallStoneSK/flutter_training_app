@@ -53,13 +53,7 @@ class FriendCircle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.only(top: 16),
-      padding: EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        border: Border(
-          top: BorderSide(width: 1, color: Color(0xFFDDDDDD)),
-          bottom: BorderSide(width: 1, color: Color(0xFFDDDDDD)),
-        ),
-      ),
+      padding: EdgeInsets.symmetric(horizontal: 16),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
