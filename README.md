@@ -5,9 +5,9 @@ Flutter练习，欢迎Star，一起学习~
 ## 预览
 
 <div>
-  <img width="250" src="./lib/basic_widgets/screen_shots/pet_card.png"/>
-  <img width="250" src="./lib/basic_widgets/screen_shots/credit_card.png"/>
-  <img width="250" src="./lib/basic_widgets/screen_shots/friend_circle.png"/>
+  <img width="33%" src="./lib/basic_widgets/screen_shots/pet_card.png"/>
+  <img width="33%" src="./lib/basic_widgets/screen_shots/credit_card.png"/>
+  <img width="33%" src="./lib/basic_widgets/screen_shots/friend_circle.png"/>
 </div>
 
 ## 文章
