@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'basic_widgets/index.dart';
+import 'list_view/index.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +14,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: HomePage(),
-      routes: {'basic_widgets': (context) => BasicWidgetsDemo()},
+      routes: {
+        'basic_widgets': (context) => BasicWidgetsDemo(),
+        'list_view': (context) => ListViewDemo(),
+      },
     );
   }
 }
@@ -37,6 +41,11 @@ const DEMOS = [
     description: '容器、行、列、文字、图片、图标等最常用组件，是构成界面的基础',
     routeName: 'basic_widgets',
   ),
+  Demo(
+    title: 'ListView组件',
+    description: '滚动型容器列表组件，支持下拉刷新，上拉加载等交互操作',
+    routeName: 'list_view'
+  )
 ];
 
 class Demo {
@@ -82,7 +91,7 @@ class HomePage extends StatelessWidget {
             ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Expanded(
                   flex: 1,
