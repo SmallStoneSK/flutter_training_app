@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'normal_usage.dart';
 import 'builder_usage.dart';
-import 'seperated_usage.dart';
+import 'separated_usage.dart';
 import 'pull_down_refresh_usage.dart';
 import 'pull_up_load_more_usage.dart';
 
@@ -16,7 +16,7 @@ const List<TabViewModel> tabs = [
     widget: SubscribeAccountList(),
   ),
   TabViewModel(
-    title: 'seperated用法',
+    title: 'separated用法',
     widget: FriendList(),
   ),
   TabViewModel(
