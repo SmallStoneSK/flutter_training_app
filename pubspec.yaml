@@ -62,6 +62,9 @@ flutter:
     - family: Farrington
       fonts:
         - asset: assets/fonts/Farrington-7B.ttf
+    - family: IconFont
+      fonts:
+        - asset: assets/fonts/IconFont.ttf
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf

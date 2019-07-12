@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'basic_widgets/index.dart';
 import 'list_view/index.dart';
+import 'grid_view/index.dart';
 
 void main() => runApp(MyApp());
 
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
       routes: {
         'basic_widgets': (context) => BasicWidgetsDemo(),
         'list_view': (context) => ListViewDemo(),
+        'grid_view': (context) => GridViewDemo(),
       },
     );
   }
@@ -45,6 +47,11 @@ const DEMOS = [
     title: 'ListView组件',
     description: '滚动型容器列表组件，支持下拉刷新，上拉加载等交互操作',
     routeName: 'list_view'
+  ),
+  Demo(
+    title: 'GridView组件',
+    description: '',
+    routeName: 'grid_view'
   )
 ];
 
