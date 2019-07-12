@@ -65,6 +65,9 @@ flutter:
     - family: IconFont
       fonts:
         - asset: assets/fonts/IconFont.ttf
+    - family: AntdIcons
+      fonts:
+        - asset: assets/fonts/AntdIcons.ttf
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
