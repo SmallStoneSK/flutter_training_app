@@ -50,7 +50,7 @@ const DEMOS = [
   ),
   Demo(
     title: 'GridView组件',
-    description: '',
+    description: '网格布局，支持自定义每行显示的列数以及每一格的宽高比例',
     routeName: 'grid_view'
   )
 ];
