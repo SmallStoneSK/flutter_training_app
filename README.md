@@ -6,6 +6,8 @@ Flutter练习，欢迎Star，一起学习~
 
 - [用Flutter构建漂亮的UI界面 - 基础组件篇](https://github.com/SmallStoneSK/Blog/issues/12)
 - [Flutter滚动型容器组件 - ListView篇](https://github.com/SmallStoneSK/Blog/issues/13)
+- [Flutter网格型布局 - GridView篇](https://github.com/SmallStoneSK/Blog/issues/15)
+- [在Flutter中使用自定义Icon](https://github.com/SmallStoneSK/Blog/issues/14)
 
 ## 预览
 
