@@ -4,6 +4,7 @@ import 'basic_widgets/index.dart';
 import 'list_view/index.dart';
 import 'grid_view/index.dart';
 import 'custom_icon/index.dart';
+import 'sliver_widgets/index.dart';
 
 void main() => runApp(MyApp());
 
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         'list_view': (context) => ListViewDemo(),
         'grid_view': (context) => GridViewDemo(),
         'custom_icons': (context) => CustomIconsDemo(),
+        'sliver_widgets': (context) => SliverWidgetsDemo()
       },
     );
   }
@@ -48,18 +50,23 @@ const DEMOS = [
   Demo(
     title: 'ListView组件',
     description: '滚动型容器列表组件，支持下拉刷新，上拉加载等交互操作',
-    routeName: 'list_view'
+    routeName: 'list_view',
   ),
   Demo(
     title: 'GridView组件',
     description: '网格布局，支持自定义每行显示的列数以及每一格的宽高比例',
-    routeName: 'grid_view'
+    routeName: 'grid_view',
   ),
   Demo(
     title: '自定义Icon图标',
     description: '下载ttf字体文件，fonts声明，根据unicode码对照生成语义的图标类型',
-    routeName: 'custom_icons'
-  )
+    routeName: 'custom_icons',
+  ),
+  Demo(
+    title: 'Sliver系列组件',
+    description: '自定义高级滚动组件，float、snap、pinned效果任你组合',
+    routeName: 'sliver_widgets',
+  ),
 ];
 
 class Demo {
